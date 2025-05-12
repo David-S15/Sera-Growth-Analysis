@@ -45,6 +45,14 @@ Performed exploratory analysis to calculate total transactions, revenue by chann
 
 - Insight: Transaction count vs. subscription likelihood.
 
+ ## Data Modelling and Visualisation
+
+The data was modeled in Excel using helper sheets to aggregate metrics like revenue, subscriber counts, and transaction statuses. Pivot Tables summarized payment spreads, while formulas (e.g., COUNTIFS, UNIQUE) calculated user activity. Visualizations include line charts for revenue and subscriber trends, a map for payment locations, and column charts for transaction-subscription analysis, all presented in an interactive dashboard with filters for user exploration. The dashboard is available here:
+
+![Data Modelling and Visualisation](https://github.com/David-S15/Sera-Growth-Analysis/blob/main/Sales_data.csv.xlsx)
+
+## Growth Analysis and recomendation
+
 ## Conclusion
 
 Higher transaction counts correlate with increased subscription rates, suggesting targeted engagement for active users.
