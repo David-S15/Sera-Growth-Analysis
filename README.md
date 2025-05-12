@@ -18,6 +18,17 @@ As a Growth Analyst at Sera Ltd, a SaaS company providing financial investment d
 - Built an Excel dashboard with Pivot Tables, filters, and charts for deliverables.
 
 
+## Data Transformation
+Transformed transaction_date from text (e.g., "Aug 7th, 2022 06:21:44 PM") to timestamp using TO_TIMESTAMP(), and consolidated card_type (e.g., "Mastercard debit" to "Mastercard") with CASE. A credit_or_debit column was added. Results are stored in a sales view. See the script:
+
+![Data transformation in SQL](https://github.com/David-S15/Sera-Growth-Analysis/blob/main/data_transformations.sql)
+
+## Data Analysis in SQL
+Performed exploratory analysis to calculate total transactions, revenue by channel, subscriber counts, and user activity. Assessed transaction status trends and identified users with multiple active months. Results guided dashboard insights. See the script:
+
+![Data Analysis in SQL](https://github.com/David-S15/Sera-Growth-Analysis/blob/main/data_analysis_sera_payments.sql)
+
+
 ## Deliverables
 
 - Monthly revenue trend (NGN/USD).
