@@ -51,6 +51,10 @@ The data was modeled in Excel using helper sheets to aggregate metrics like reve
 
 ![Data Modelling and Visualisation](https://github.com/David-S15/Sera-Growth-Analysis/blob/main/Sales_data.csv.xlsx)
 
+### Dashboard
+a quick view of the Dashboard
+![Dashboard](https://github.com/David-S15/Sera-Growth-Analysis/blob/main/Dashboard.png)
+
 ## Growth Analysis and recomendation
 
 ## Conclusion
