@@ -1,21 +1,17 @@
 ## Objective
 
-As a Growth Analyst at Sera Ltd, a SaaS company providing financial investment data, analyze subscription payment data (2022-2023) to understand sales trends, customer retention, and whether more transactions boost subscription likelihood.
+This project, completed as a Growth Analyst at Sera Ltd (a SaaS provider of financial investment data), focused on analyzing subscription payment data from 2022 to 2023. The goal was to understand sales trends, customer retention, and how transaction frequency affects subscription likelihood.
 
 
 ## Tools
-
-- Microsoft Excel (for dashboards and charts)
-- SQL (for data views)
-- GitHub (for version control)
+- Microsoft Excel – For building dashboards, creating Pivot Tables, and visualizing trends.
+- PostgreSQL – To clean, transform, and analyze large datasets using SQL.
+- GitHub – For version control and collaboration.
 
 ## Technique
-
-- Transformed transaction_date (text to timestamp) and card_type (consolidated payment processors) using SQL.
-
-- Created a sales view for analysis.
-
-- Built an Excel dashboard with Pivot Tables, filters, and charts for deliverables.
+- Transformed transaction_date (text to timestamp) and standardized card_type using PostgreSQL.
+- Created a cleaned, sales-focused dataset for deeper analysis.
+- Built an interactive Excel dashboard with Pivot Tables, slicers, and charts to explore user behavior and key trends.s for deliverables.
 
 
 ## Data Transformation
@@ -24,7 +20,7 @@ Transformed transaction_date from text (e.g., "Aug 7th, 2022 06:21:44 PM") to ti
 ![Data transformation in SQL](https://github.com/David-S15/Sera-Growth-Analysis/blob/main/data_transformations.sql)
 
 ## Data Analysis in SQL
-Performed exploratory analysis to calculate total transactions, revenue by channel, subscriber counts, and user activity. Assessed transaction status trends and identified users with multiple active months. Results guided dashboard insights. See the script:
+Performed SQL-based analysis in PostgreSQL to calculate total transactions, revenue by channel, subscriber activity, and payment trends. Explored data across multiple filters including transaction status, card type, and location. See the script:
 
 ![Data Analysis in SQL](https://github.com/David-S15/Sera-Growth-Analysis/blob/main/data_analysis_sera_payments.sql)
 
@@ -47,16 +43,20 @@ Performed exploratory analysis to calculate total transactions, revenue by chann
 
  ## Data Modelling and Visualisation
 
-The data was modeled in Excel using helper sheets to aggregate metrics like revenue, subscriber counts, and transaction statuses. Pivot Tables summarized payment spreads, while formulas (e.g., COUNTIFS, UNIQUE) calculated user activity. Visualizations include line charts for revenue and subscriber trends, a map for payment locations, and column charts for transaction-subscription analysis, all presented in an interactive dashboard with filters for user exploration. The dashboard is available here:
+Excel was used to model the data, combining formulas like SUMIFS, COUNTIFS, and UNIQUE to generate key metrics (revenue, user activity, transaction volume).
+Visual elements included:
+
+- Line charts for revenue and subscriber growth.
+-Comparison charts by payment method and transaction status.
 
 ![Data Modelling and Visualisation](https://github.com/David-S15/Sera-Growth-Analysis/blob/main/Sales_data.csv.xlsx)
 
 ### Dashboard
-a quick view of the Dashboard
+A quick look at the dashboard
 ![Dashboard](https://github.com/David-S15/Sera-Growth-Analysis/blob/main/Dashboard.png)
 
-## Growth Analysis and recomendation
+
 
 ## Conclusion
 
-Higher transaction counts correlate with increased subscription rates, suggesting targeted engagement for active users.
+Higher transaction counts correlate with increased subscription rates, highlighting the value of encouraging regular user engagement. These insights can help drive targeted strategies for customer retention and growth.
